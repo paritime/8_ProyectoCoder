@@ -7,3 +7,4 @@ admin.site.register(Estudiantes)
 admin.site.register(Curso)
 admin.site.register(Profesor)
 admin.site.register(Entregable)
+# Para regristrar modelos
