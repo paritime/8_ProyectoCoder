@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block parrafo %} 
+
+<form action = '' method="POST" >
+    {% csrf_token %}
+    {{form}}
+
+    <input type = 'submit' name = 'Guardar'>
+</form>
+
+{% endblock %}

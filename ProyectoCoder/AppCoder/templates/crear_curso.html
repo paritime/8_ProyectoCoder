@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block parrafo %} 
+
+<form action = '/AppCoder/crear_curso/' method = POST>
+    {% csrf_token %}
+   <p>nombre: <input type = 'text' name ='nombre'></p> 
+   <p>comision: <input type = 'text' name ='comision' ></p> 
+   <input type = 'submit'>
+</form>
+
+{% endblock %}
